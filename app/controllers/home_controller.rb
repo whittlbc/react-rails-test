@@ -8,4 +8,16 @@ class HomeController < ApplicationController
     render :view
   end
 
+  def list
+    names = [
+      'Ben Whittle',
+      'Erick Tai',
+      'Justin Wyne',
+      'James Kerr',
+      'Christian Ling'
+    ]
+
+    render component: 'FriendsContainer', props: { friends: names }
+  end
+
 end

@@ -6,7 +6,7 @@ var Post = React.createClass({
   render: function() {
     return (
       <div>
-        <div>Title: {this.props.title}</div>
+        <div>Title: { this.props.title }</div>
       </div>
     );
   }

@@ -8,6 +8,8 @@ ReactRailsTest::Application.routes.draw do
 
   get '/view' => 'home#view'
 
+  get '/list' => 'home#list'
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
